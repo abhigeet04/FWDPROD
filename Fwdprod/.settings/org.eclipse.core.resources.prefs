@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//WebContent/view/account_static_details.jsp=UTF-8
+encoding//src/in/co/forwardcontract/action/ForwardContractAction.java=UTF-8
+encoding//src/in/co/forwardcontract/dao/ForwardContractDAO.java=UTF-8
+encoding//src/in/co/forwardcontract/service/utility/FWCUtil.java=UTF-8

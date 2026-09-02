@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+    <Appenders>
+
+        <!-- Rolling File Appender (Exact match to Log4j 1.x behavior) -->
+        <RollingFile name="FileAppender"
+                     fileName="/ftrade/FTI_Repositories/Localisation_logs/Forward_Contract/Forward_Contract.log"
+                     filePattern="/ftrade/FTI_Repositories/Localisation_logs/Forward_Contract/Forward_Contract.log.%i">
+
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+
+            <Policies>
+                <!-- Size-based rollover (same as MaxFileSize) -->
+                <SizeBasedTriggeringPolicy size="10MB"/>
+            </Policies>
+
+            <!-- Same as MaxBackupIndex -->
+            <DefaultRolloverStrategy max="40"/>
+
+        </RollingFile>
+
+        <!-- Console Appender (same as stdout) -->
+        <Console name="ConsoleAppender" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+        </Console>
+
+    </Appenders>
+
+    <Loggers>
+
+        <!-- Root Logger (same as log4j.rootLogger) -->
+        <Root level="info">
+            <AppenderRef ref="FileAppender"/>
+            <AppenderRef ref="ConsoleAppender"/>
+        </Root>
+
+    </Loggers>
+
+</Configuration>

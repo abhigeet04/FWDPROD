@@ -1,0 +1,143 @@
+PP Search
+---------
+Customer ID
+Customer Name
+Start Date
+End Date
+
+PP List Page
+------------
+Customer ID
+Customer Name
+Start Date
+End Date
+Export Available Amount
+Import Available Amount
+
+PP Detail Page
+--------------
+Customer ID
+Customer Name
+Start Date
+End Date
+Export  PP Limit
+Import  PP Limit
+Export contract booked against PP
+Import contract booked against PP
+Export Utilized Amount
+Import utilized Amount
+Export contract cancelled
+Import contract cancelled
+Export Available Amount
+Import Available Amount
+Export Limit for cancellation (75%)
+Available Export limit for cancellation
+Available Import limit for cancellation
+-----------------------------------------------------------------
+
+Underlying Search
+-----------------
+Doc reference no -Text Box
+Doc date - Date
+Doc Maturity Date - Date
+Capture date - Date
+Currency -Text Box
+Beneficiary Name - Text Box
+CIF No - Text Box
+
+Underlying List
+---------------
+Doc ref no
+Doc date
+Maturity Date
+Benef Name
+Curr
+Amount
+Utilized Amount
+Balance Amount
+
+
+Underlying Details
+------------------
+Reference number -Text Box
+Doc reference no -Text Box
+Doc date - Date
+Doc Maturity Date - Date
+Capture date - Date
+Currency -Text Box
+Beneficiary Name -Text Box
+CIF no -Text Box
+Amount -Text Box
+Goods Description ( Big Area)
+Scanned ref number - Text Box
+Indicator (.)Export (.)Import
+Types of underlying -  Dropdown(TCG/LC/FIBC/Invoice)
+Physical docs received - (.) Yes (.) No
+FC receipt (.)Yes (.No)
+Utilized Amount -Text Box
+Balance Amount -Text Box
+Remarks -( Big Area)
+
+----------------------------------------------------------
+
+Deal number	889924	
+Grid Id		
+Contract Party	GROVERSONS	
+Booking Date	21/03/2014 10:31:51 	
+Option Date	02/06/2014	
+Contract Rate	62.0000000	
+Dealer Id		
+Date		21/03/2014 09:31:51 	
+A/C Number			89765678	
+Contract Type		Purchase	
+Maturity Date		30/06/2014	
+Prim Amount		USD	100,000.0000000
+Sec Amount		INR	6200000
+Folder Name		FXC-OB    	
+		
+Margin Amount	20%	1240000
+		
+Additonal Amount	wrg. margin inserted corected	
+		
+Booking Commission(INR)	500	
+Other charges	0.01	
+Cess Tax	2%	
+Total Amount
+
+-----------------------------------------------------------------------
+
+Margin Details
+
+Name	- GROVERSONS
+Rel.Dep Name	
+CIF			- 8745743
+FD No		- 546789123
+Avail Balance	- 2240000
+Maturity Date	- 30/08/2014
+Party Name	- 
+Auto Renevial	- Y
+------------------------------------------------------
+
+Booking Commission	Flat	INR 500
+Franking Charges	Flat	INR 110
+Other Charges (optional)	Flat	INR 0.01
+Service tax	Perc	12%
+Cess tax	Perc	2.5%
+Education cess	Perc	0.5%
+
+------------------------------------------------------
+
+Landing Page.
+
+Forward Contract
+Underlying
+Past Performance
+Export Order
+Export Project
+
+Click Forward Contract
+Left Nav
+	- Forward Contract 
+	- Past Performance
+	- Underlying
+	- Transactions
